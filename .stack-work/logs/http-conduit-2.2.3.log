@@ -1,0 +1,17 @@
+Configuring http-conduit-2.2.3...
+Building http-conduit-2.2.3...
+Preprocessing library http-conduit-2.2.3...
+[1 of 3] Compiling Network.HTTP.Client.Conduit ( Network/HTTP/Client/Conduit.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Network/HTTP/Client/Conduit.o )
+[2 of 3] Compiling Network.HTTP.Simple ( Network/HTTP/Simple.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Network/HTTP/Simple.o )
+
+Network/HTTP/Simple.hs:83:1: warning: [-Wdeprecations]
+    Module ‘Data.Aeson.Encode’ is deprecated:
+      Use Data.Aeson or Data.Aeson.Text instead
+
+Network/HTTP/Simple.hs:326:46: warning: [-Wdeprecations]
+    In the use of ‘encode’ (imported from Data.Aeson.Encode):
+    Deprecated: "Use Data.Aeson or Data.Aeson.Text instead"
+[3 of 3] Compiling Network.HTTP.Conduit ( Network/HTTP/Conduit.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Network/HTTP/Conduit.o )
+Installing library in
+/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/http-conduit-2.2.3-FHhGdXrViryGhcbi8AMGZ4
+Registering http-conduit-2.2.3...

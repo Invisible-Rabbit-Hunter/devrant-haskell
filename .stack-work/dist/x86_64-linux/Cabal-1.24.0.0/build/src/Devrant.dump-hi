@@ -1,0 +1,1229 @@
+
+==================== FINAL INTERFACE ====================
+2017-01-05 22:39:11.128221 UTC
+
+interface devrant-0.1.0.0-LZDcfoblXqTAwYXUsZPCux:Devrant 8001
+  interface hash: a55c34bb91d0147b6d757922481f9e9e
+  ABI hash: 1def2570600bb4c582ba0e9fa289826e
+  export-list hash: 780da194f9642ec531e59f776c22a4d0
+  orphan hash: 149917fd89c909cc5c36e728e3945f05
+  flag hash: 57d900b1c2ee46d04a484fcbe9ab7cf6
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Devrant.getRant
+  Devrant.getRants
+  Devrant.searchRants
+  Devrant.Rant{rantID text user}
+  Devrant.User{userID userScore username}
+module dependencies:
+package dependencies: aeson-1.1.0.0@aeson-1.1.0.0-2ndlG8WLxEf3tTAmkmkTAt
+                      array-0.5.1.1@array-0.5.1.1
+                      asn1-encoding-0.9.4@asn1-encoding-0.9.4-I3pL4k5quBJIDSsjS3xgSX
+                      asn1-parse-0.9.4@asn1-parse-0.9.4-6frCBZ7wx43HUPuxtHsj0C
+                      asn1-types-0.3.2@asn1-types-0.3.2-Ge9r4mjT9gqKvh3HYDUZpM
+                      async-2.1.1@async-2.1.1-xFiBzw9xoB8HPZAuxUY2o
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-3Yc01HP7t3tGC3AH52n5aT
+                      base-4.9.0.0
+                      base-compat-0.9.1@base-compat-0.9.1-tmPpmtbHbvIDjFWbkjGrR
+                      base64-bytestring-1.0.0.1@base64-bytestring-1.0.0.1-In9M41tLtcS9QYt3QpGpNY
+                      binary-0.8.3.0@binary-0.8.3.0
+                      blaze-builder-0.4.0.2@blaze-builder-0.4.0.2-LfJHtaLjD4FC6u7q2ZoVsA
+                      byteable-0.1.1@byteable-0.1.1-15aIBCArSOBEnGxArzrDTM
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      case-insensitive-1.2.0.7@case-insensitive-1.2.0.7-LntjUIkE2e8LTsVqqpgI18
+                      cereal-0.5.4.0@cereal-0.5.4.0-2FJYHGgtE5C3SxaZjt25xS
+                      conduit-1.2.8@conduit-1.2.8-5fgvzhyiRP8I8gw0elzssW
+                      conduit-extra-1.1.15@conduit-extra-1.1.15-LHeaW5NbDP9In4j6ZEwQBL
+                      connection-0.2.6@connection-0.2.6-FA6fCE44nC6IwhVHmBKrO5
+                      containers-0.5.7.1@containers-0.5.7.1
+                      cookie-0.4.2.1@cookie-0.4.2.1-F0553x7AEsq5xUH68Rv9eX
+                      cryptonite-0.21@cryptonite-0.21-HrdKDcMPHtdIepdDb5HofB
+                      data-default-class-0.1.2.0@data-default-class-0.1.2.0-FYQpjIylblBDctdkHAFeXA
+                      deepseq-1.4.2.0@deepseq-1.4.2.0 directory-1.2.6.2@directory-1.2.6.2
+                      dlist-0.8.0.2@dlist-0.8.0.2-GWAMmbX9rLg3tqrbOizHGv
+                      exceptions-0.8.3@exceptions-0.8.3-7py7fmRxowDFpHmiHGKrTb
+                      filepath-1.4.1.0@filepath-1.4.1.0
+                      foundation-0.0.2@foundation-0.0.2-89YGReVRtRBBWcW0btG0KB
+                      ghc-boot-th-8.0.1@ghc-boot-th-8.0.1 ghc-prim-0.5.0.0
+                      hashable-1.2.5.0@hashable-1.2.5.0-K11OC2HRAN471pd3DIyjZw
+                      hourglass-0.2.10@hourglass-0.2.10-I8h0J4RSF89FN6CuD9x2Xx
+                      http-client-0.5.5@http-client-0.5.5-GNDNbTnqdsaAJHpzdKTuc8
+                      http-client-tls-0.3.3@http-client-tls-0.3.3-66YMsfFQk1a6stVufgDkif
+                      http-conduit-2.2.3@http-conduit-2.2.3-FHhGdXrViryGhcbi8AMGZ4
+                      http-types-0.9.1@http-types-0.9.1-14erGt9zg5qCH8qY2noD0q
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1@integer-logarithms-1-E6LvTbkhTkGIa6wPB3rtJw
+                      lifted-base-0.2.3.8@lifted-base-0.2.3.8-KLkd0w1UJqu6nE8oVTTEBy
+                      memory-0.14@memory-0.14-But6HaIhd2C3y9F3lVFwDX
+                      mmorph-1.0.9@mmorph-1.0.9-DmSwQqk5nLj7roLAcydGz
+                      monad-control-1.0.1.0@monad-control-1.0.1.0-HoNEBoNfniX3vjSfkI7WTT
+                      mtl-2.2.1@mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM
+                      network-2.6.3.1@network-2.6.3.1-G4Up1CPKbp7DeFsnywOnGG
+                      network-uri-2.6.1.0@network-uri-2.6.1.0-DXMofGThtIUB3UWMlzl3nb
+                      parsec-3.1.11@parsec-3.1.11-3WIMUA3wnqVJ4nTQk5XohJ
+                      pem-0.2.2@pem-0.2.2-qPMQP6sZm3HgQEmiBojNt
+                      primitive-0.6.1.0@primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa
+                      random-1.1@random-1.1-54KmMHXjttlERYcr1mvsAe
+                      resourcet-1.1.9@resourcet-1.1.9-965WSCM4zVm5AReELsOl9B
+                      scientific-0.3.4.10@scientific-0.3.4.10-LXEzKuFpie54hfE26sNLMX
+                      socks-0.5.5@socks-0.5.5-GieRokcgjQCIzUyRn9wVby
+                      stm-2.4.4.1@stm-2.4.4.1-4z2NRWnB0NIIUvSJsHW0kF
+                      streaming-commons-0.1.16@streaming-commons-0.1.16-CFMm0asQPBxEFfx73zFDJ2
+                      tagged-0.8.5@tagged-0.8.5-CtgV6EcN0do8F92i1S6iYx
+                      template-haskell-2.11.0.0
+                      text-1.2.2.1@text-1.2.2.1-JAnD1x1IHr6H3rdrqlXcyH
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-1j5dGjxxtiTDuAsO86iSk0
+                      tls-1.3.9@tls-1.3.9-KJBO78E1rmM8eb2ZWJP8GK
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-base-0.4.4@transformers-base-0.4.4-25SoAegOdaF8rLEnnb5jPI
+                      unix-2.7.2.0@unix-2.7.2.0
+                      unordered-containers-0.2.7.2@unordered-containers-0.2.7.2-IUbuzuZWwz7DhyNuEARHKv
+                      uuid-types-1.0.3@uuid-types-1.0.3-57YLXqsqG0t2jzowUR9obF
+                      vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6
+                      x509-1.6.5@x509-1.6.5-6qTA8kCdS4XAhW35o08WsA
+                      x509-store-1.6.2@x509-store-1.6.2-3tBRM6SSv6zLSsQYsl0WSJ
+                      x509-system-1.6.4@x509-system-1.6.4-27Gxg35DGJ99MMGbSfX39I
+                      x509-validation-1.6.5@x509-validation-1.6.5-HEd7uTRy2PRJUakYeedEpx
+                      zlib-0.6.1.2@zlib-0.6.1.2-4CWLN1T27kOJhNvXgy46ZV
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3Yc01HP7t3tGC3AH52n5aT:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3Yc01HP7t3tGC3AH52n5aT:Data.Attoparsec.Text.Internal
+         base-4.9.0.0:GHC.Base base-4.9.0.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         hashable-1.2.5.0@hashable-1.2.5.0-K11OC2HRAN471pd3DIyjZw:Data.Hashable.Generic
+         http-client-0.5.5@http-client-0.5.5-GNDNbTnqdsaAJHpzdKTuc8:Network.HTTP.Client.Request
+         network-2.6.3.1@network-2.6.3.1-G4Up1CPKbp7DeFsnywOnGG:Network.Socket
+         stm-2.4.4.1@stm-2.4.4.1-4z2NRWnB0NIIUvSJsHW0kF:Control.Monad.STM
+         text-1.2.2.1@text-1.2.2.1-JAnD1x1IHr6H3rdrqlXcyH:Data.Text
+         text-1.2.2.1@text-1.2.2.1-JAnD1x1IHr6H3rdrqlXcyH:Data.Text.Lazy
+         text-1.2.2.1@text-1.2.2.1-JAnD1x1IHr6H3rdrqlXcyH:Data.Text.Show
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3Yc01HP7t3tGC3AH52n5aT:Data.Attoparsec.Internal.Types
+                         base-4.9.0.0:Control.Applicative base-4.9.0.0:Data.Complex
+                         base-4.9.0.0:Data.Either base-4.9.0.0:Data.Functor.Compose
+                         base-4.9.0.0:Data.Functor.Const base-4.9.0.0:Data.Functor.Identity
+                         base-4.9.0.0:Data.Functor.Product base-4.9.0.0:Data.Functor.Sum
+                         base-4.9.0.0:Data.List.NonEmpty base-4.9.0.0:Data.Monoid
+                         base-4.9.0.0:Data.Semigroup base-4.9.0.0:Data.Type.Equality
+                         base-4.9.0.0:Data.Version base-4.9.0.0:Data.Void
+                         base-4.9.0.0:GHC.Exts base-4.9.0.0:GHC.Generics
+                         base-4.9.0.0:GHC.IO.Exception base-4.9.0.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.2@dlist-0.8.0.2-GWAMmbX9rLg3tqrbOizHGv:Data.DList
+                         foundation-0.0.2@foundation-0.0.2-89YGReVRtRBBWcW0btG0KB:Foundation.Array.Bitmap
+                         foundation-0.0.2@foundation-0.0.2-89YGReVRtRBBWcW0btG0KB:Foundation.Array.Boxed
+                         foundation-0.0.2@foundation-0.0.2-89YGReVRtRBBWcW0btG0KB:Foundation.Array.Chunked.Unboxed
+                         foundation-0.0.2@foundation-0.0.2-89YGReVRtRBBWcW0btG0KB:Foundation.Array.Unboxed
+                         foundation-0.0.2@foundation-0.0.2-89YGReVRtRBBWcW0btG0KB:Foundation.Collection.Buildable
+                         foundation-0.0.2@foundation-0.0.2-89YGReVRtRBBWcW0btG0KB:Foundation.Collection.Collection
+                         foundation-0.0.2@foundation-0.0.2-89YGReVRtRBBWcW0btG0KB:Foundation.Collection.Element
+                         foundation-0.0.2@foundation-0.0.2-89YGReVRtRBBWcW0btG0KB:Foundation.Collection.Keyed
+                         foundation-0.0.2@foundation-0.0.2-89YGReVRtRBBWcW0btG0KB:Foundation.Collection.Mutable
+                         foundation-0.0.2@foundation-0.0.2-89YGReVRtRBBWcW0btG0KB:Foundation.Internal.Types
+                         foundation-0.0.2@foundation-0.0.2-89YGReVRtRBBWcW0btG0KB:Foundation.Numerical.Subtractive
+                         foundation-0.0.2@foundation-0.0.2-89YGReVRtRBBWcW0btG0KB:Foundation.Primitive.Monad
+                         foundation-0.0.2@foundation-0.0.2-89YGReVRtRBBWcW0btG0KB:Foundation.String.Encoding.ASCII7
+                         foundation-0.0.2@foundation-0.0.2-89YGReVRtRBBWcW0btG0KB:Foundation.String.Encoding.ISO_8859_1
+                         foundation-0.0.2@foundation-0.0.2-89YGReVRtRBBWcW0btG0KB:Foundation.String.Encoding.UTF16
+                         foundation-0.0.2@foundation-0.0.2-89YGReVRtRBBWcW0btG0KB:Foundation.String.Encoding.UTF32
+                         foundation-0.0.2@foundation-0.0.2-89YGReVRtRBBWcW0btG0KB:Foundation.String.UTF8
+                         foundation-0.0.2@foundation-0.0.2-89YGReVRtRBBWcW0btG0KB:Foundation.Tuple
+                         ghc-boot-th-8.0.1@ghc-boot-th-8.0.1:GHC.LanguageExtensions.Type
+                         http-client-0.5.5@http-client-0.5.5-GNDNbTnqdsaAJHpzdKTuc8:Network.HTTP.Client
+                         monad-control-1.0.1.0@monad-control-1.0.1.0-HoNEBoNfniX3vjSfkI7WTT:Control.Monad.Trans.Control
+                         network-uri-2.6.1.0@network-uri-2.6.1.0-DXMofGThtIUB3UWMlzl3nb:Network.URI
+                         primitive-0.6.1.0@primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa:Control.Monad.Primitive
+                         resourcet-1.1.9@resourcet-1.1.9-965WSCM4zVm5AReELsOl9B:Control.Monad.Trans.Resource.Internal
+                         tagged-0.8.5@tagged-0.8.5-CtgV6EcN0do8F92i1S6iYx:Data.Tagged
+                         template-haskell-2.11.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text-1.2.2.1-JAnD1x1IHr6H3rdrqlXcyH:Data.Text
+                         text-1.2.2.1@text-1.2.2.1-JAnD1x1IHr6H3rdrqlXcyH:Data.Text.Lazy
+                         unordered-containers-0.2.7.2@unordered-containers-0.2.7.2-IUbuzuZWwz7DhyNuEARHKv:Data.HashMap.Base
+                         unordered-containers-0.2.7.2@unordered-containers-0.2.7.2-IUbuzuZWwz7DhyNuEARHKv:Data.HashSet
+                         uuid-types-1.0.3@uuid-types-1.0.3-57YLXqsqG0t2jzowUR9obF:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-57YLXqsqG0t2jzowUR9obF:Data.UUID.Types.Internal.Builder
+                         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector
+                         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector.Primitive
+                         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector.Storable
+                         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector.Unboxed
+                         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector.Unboxed.Base
+                         zlib-0.6.1.2@zlib-0.6.1.2-4CWLN1T27kOJhNvXgy46ZV:Codec.Compression.Zlib.Stream
+import  -/  aeson-1.1.0.0@aeson-1.1.0.0-2ndlG8WLxEf3tTAmkmkTAt:Data.Aeson 04ab6aaeb6ad734602878a193aa7617a
+import  -/  aeson-1.1.0.0@aeson-1.1.0.0-2ndlG8WLxEf3tTAmkmkTAt:Data.Aeson.Types 499d58d6da065cd0de9801a9c0dddc4c
+import  -/  aeson-1.1.0.0@aeson-1.1.0.0-2ndlG8WLxEf3tTAmkmkTAt:Data.Aeson.Types.FromJSON affd448bdc188b35e989a4c64ef47213
+import  -/  aeson-1.1.0.0@aeson-1.1.0.0-2ndlG8WLxEf3tTAmkmkTAt:Data.Aeson.Types.Internal e18329a75ede7acd9738a0074ecaa404
+import  -/  base-4.9.0.0:Data.Foldable 8aeb682f6c74f97fcf0ace0d608a43ea
+import  -/  base-4.9.0.0:Data.Tuple acb0ed10307ed88df6c81b8589f4de16
+import  -/  base-4.9.0.0:GHC.Base 8ed3be81c0707b322f975a84ae1bb816
+import  -/  base-4.9.0.0:GHC.Show 952347a6ab730bcb25c0854d8bc6ca51
+import  -/  base-4.9.0.0:Prelude b9bddb97799837fe67a8d00939a5b6c3
+import  -/  bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Lazy 027a2253fdb0024bdcbbdc101ef230c2
+import  -/  foundation-0.0.2@foundation-0.0.2-89YGReVRtRBBWcW0btG0KB:Foundation 3634d3633d47b3ade4332a1baf8cecae
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  ghc-prim-0.5.0.0:GHC.Types 7378e41b7749213c8c88ceb6b0665d4c
+import  -/  http-client-0.5.5@http-client-0.5.5-GNDNbTnqdsaAJHpzdKTuc8:Network.HTTP.Client.Request 30dd736c94fcab3567e93304ee410fe7
+import  -/  http-conduit-2.2.3@http-conduit-2.2.3-FHhGdXrViryGhcbi8AMGZ4:Network.HTTP.Simple df204fe5a652d4ecf3913e43cab422b5
+import  -/  unordered-containers-0.2.7.2@unordered-containers-0.2.7.2-IUbuzuZWwz7DhyNuEARHKv:Data.HashMap.Base 24e7baf60da9e71c7d45c8ba3e4f7d2a
+import  -/  unordered-containers-0.2.7.2@unordered-containers-0.2.7.2-IUbuzuZWwz7DhyNuEARHKv:Data.HashMap.Lazy f1b8b8aa04e0b563505ee6ecb14bf1c4
+import  -/  vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector a0e152223d52c96cfbb5eb3d4ec6499a
+8237e31366509e9a6f632ba0a2abae20
+  $fShowRant :: GHC.Show.Show Devrant.Rant
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Devrant.Rant
+                  Devrant.$fShowRant_$cshowsPrec
+                  Devrant.$fShowRant_$cshow
+                  Devrant.$fShowRant_$cshowList -}
+8237e31366509e9a6f632ba0a2abae20
+  $fShowRant1 :: Devrant.Rant -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ (w :: Devrant.Rant) (w1 :: GHC.Base.String) ->
+                 case w of ww { Devrant.Rant ww1 ww2 ww3 ->
+                 Devrant.$w$cshowsPrec 0# ww1 ww2 ww3 w1 }) -}
+e8f0faea59624a0226993159452ab29a
+  $fShowRant10 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "text = "#) -}
+f5a7b2973b66d766267261c9aa3d3705
+  $fShowRant11 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Rant {"#) -}
+1f50748cde33dc9b9c2174c9ea1a0e6f
+  $fShowRant2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "}"#) -}
+551c233790396292e1e85128596df5cd
+  $fShowRant3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "userScore = "#) -}
+9aa13c7b2a65c414d9a8e13319886dd8
+  $fShowRant4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "userID = "#) -}
+c5e3c1d0f881d20091c7b6fb46714e7f
+  $fShowRant5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ", "#) -}
+6fe515958c4b35bb540d04b87c418ffa
+  $fShowRant6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "username = "#) -}
+f006d279a0e0f73357af1a81d90c7db4
+  $fShowRant7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "User {"#) -}
+4781352db682cb600c5ecca4d3daef8e
+  $fShowRant8 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "user = "#) -}
+37d3660c7fdc9fafbce410f4e3d16123
+  $fShowRant9 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "rantID = "#) -}
+8237e31366509e9a6f632ba0a2abae20
+  $fShowRant_$cshow :: Devrant.Rant -> GHC.Base.String
+  {- Arity: 1,
+     Strictness: <S,1*U(1*U,1*U(U),1*U(1*U,1*U(U),1*U(U)))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Devrant.Rant) ->
+                 Devrant.$fShowRant_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+8237e31366509e9a6f632ba0a2abae20
+  $fShowRant_$cshowList :: [Devrant.Rant] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Devrant.Rant
+                   Devrant.$fShowRant1) -}
+8237e31366509e9a6f632ba0a2abae20
+  $fShowRant_$cshowsPrec ::
+    GHC.Types.Int -> Devrant.Rant -> GHC.Show.ShowS
+  {- Arity: 3,
+     Strictness: <S(S),1*U(U)><S,1*U(1*U,1*U(U),1*U(1*U,1*U(U),1*U(U)))><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Devrant.Rant)
+                   (w2 :: GHC.Base.String) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Devrant.Rant ww3 ww4 ww5 ->
+                 Devrant.$w$cshowsPrec ww1 ww3 ww4 ww5 w2 } }) -}
+641b8ebaf322c89278a35f3dceb98750
+  $fShowUser :: GHC.Show.Show Devrant.User
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Devrant.User
+                  Devrant.$fShowUser_$cshowsPrec
+                  Devrant.$fShowUser_$cshow
+                  Devrant.$fShowUser_$cshowList -}
+641b8ebaf322c89278a35f3dceb98750
+  $fShowUser1 :: Devrant.User -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ (w :: Devrant.User) (w1 :: GHC.Base.String) ->
+                 case w of ww { Devrant.User ww1 ww2 ww3 ->
+                 Devrant.$w$cshowsPrec1 0# ww1 ww2 ww3 w1 }) -}
+641b8ebaf322c89278a35f3dceb98750
+  $fShowUser_$cshow :: Devrant.User -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(1*U,1*U(U),1*U(U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Devrant.User) ->
+                 Devrant.$fShowUser_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+641b8ebaf322c89278a35f3dceb98750
+  $fShowUser_$cshowList :: [Devrant.User] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Devrant.User
+                   Devrant.$fShowUser1) -}
+641b8ebaf322c89278a35f3dceb98750
+  $fShowUser_$cshowsPrec ::
+    GHC.Types.Int -> Devrant.User -> GHC.Show.ShowS
+  {- Arity: 3,
+     Strictness: <S(S),1*U(U)><S,1*U(1*U,1*U(U),1*U(U))><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Devrant.User)
+                   (w2 :: GHC.Base.String) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Devrant.User ww3 ww4 ww5 ->
+                 Devrant.$w$cshowsPrec1 ww1 ww3 ww4 ww5 w2 } }) -}
+5f15285db4dd02fb9e7d23188c9864b1
+  $s$fFromJSONHashMap ::
+    Data.Aeson.Types.FromJSON.FromJSON
+      (Data.HashMap.Base.HashMap
+         Data.Text.Internal.Text Data.Aeson.Types.Internal.Value)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Data.HashMap.Base.HashMap
+                       Data.Text.Internal.Text Data.Aeson.Types.Internal.Value)
+                  (\ (eta :: Data.Aeson.Types.Internal.Value) ->
+                   Data.Aeson.Types.FromJSON.$fFromJSON1HashMap_$cliftParseJSON
+                     @ Data.Text.Internal.Text
+                     Data.Aeson.Types.FromJSON.$fFromJSONKeyText0
+                     Data.Text.$fEqText
+                     Data.Hashable.Class.$fHashableText0
+                     @ Data.Aeson.Types.Internal.Value
+                     (Data.Aeson.Types.Internal.$fApplicativeParser_$cpure
+                        @ Data.Aeson.Types.Internal.Value)
+                     Data.Aeson.Types.FromJSON.$fFromJSONValue_$cparseJSONList
+                     eta)
+                  (Data.Aeson.Types.FromJSON.$fFromJSONHashMap_$cparseJSONList
+                     @ Data.Aeson.Types.Internal.Value
+                     @ Data.Text.Internal.Text
+                     Data.Aeson.Types.FromJSON.$fFromJSONValue
+                     Data.Aeson.Types.FromJSON.$fFromJSONKeyText0
+                     Data.Text.$fEqText
+                     Data.Hashable.Class.$fHashableText0) -}
+c431c615ad47e6090486e61772a3cbb0
+  $s$fFromJSONHashMap_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser
+         (Data.HashMap.Base.HashMap
+            Data.Text.Internal.Text Data.Aeson.Types.Internal.Value)
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: Data.Aeson.Types.Internal.Value) ->
+                 Data.Aeson.Types.FromJSON.$fFromJSON1HashMap_$cliftParseJSON
+                   @ Data.Text.Internal.Text
+                   Data.Aeson.Types.FromJSON.$fFromJSONKeyText0
+                   Data.Text.$fEqText
+                   Data.Hashable.Class.$fHashableText0
+                   @ Data.Aeson.Types.Internal.Value
+                   (Data.Aeson.Types.Internal.$fApplicativeParser_$cpure
+                      @ Data.Aeson.Types.Internal.Value)
+                   Data.Aeson.Types.FromJSON.$fFromJSONValue_$cparseJSONList
+                   eta) -}
+396218c0dfdb35c66ca6c935fc21af72
+  $tc'Rant :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   13532878530454255236##
+                   10392204611798009384##
+                   Devrant.$trModule
+                   Devrant.$tc'Rant1) -}
+f5bdb56773a05326c4d9b920132b6a63
+  $tc'Rant1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'Rant"#) -}
+917a244db4b2399f013bfbfb27509671
+  $tc'User :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   12856040828254051183##
+                   5991465659589822678##
+                   Devrant.$trModule
+                   Devrant.$tc'User1) -}
+8cbcd690b3ee2062d5c08e85223f5e03
+  $tc'User1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'User"#) -}
+c46380e66b57d10adcd7a08b96062276
+  $tcRant :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   15128756725177930420##
+                   518897852934717380##
+                   Devrant.$trModule
+                   Devrant.$tcRant1) -}
+43b4bac1b198ae687bee3afeec06cd69
+  $tcRant1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Rant"#) -}
+40a0c202d3e9e53c27102798cb48ed30
+  $tcUser :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   14713665789185143198##
+                   11608699007723059998##
+                   Devrant.$trModule
+                   Devrant.$tcUser1) -}
+80a80d81ed6d368716192d100c968852
+  $tcUser1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "User"#) -}
+627f212e978e3831c6d88adba84711b9
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Devrant.$trModule2
+                   Devrant.$trModule1) -}
+36fc5029b1b859773265b78bd5a88cdf
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Devrant"#) -}
+b12aad74ad33951bd14a6a5de748b90c
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "devrant-0.1.0.0-LZDcfoblXqTAwYXUsZPCux"#) -}
+023d2bb893aca0fa43a5e22eedd97ada
+  $w$cshowsPrec ::
+    GHC.Prim.Int#
+    -> GHC.Base.String
+    -> GHC.Types.Int
+    -> Devrant.User
+    -> GHC.Base.String
+    -> GHC.Base.String
+  {- Arity: 5,
+     Strictness: <S,U><L,1*U><L,1*U(U)><L,1*U(1*U,1*U(U),1*U(U))><L,U>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: GHC.Base.String)
+                   (ww2 :: GHC.Types.Int)
+                   (ww3 :: Devrant.User)
+                   (w :: GHC.Base.String) ->
+                 let {
+                   p :: GHC.Show.ShowS {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ (x :: GHC.Base.String)[OneShot] ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Devrant.$fShowRant11
+                       (GHC.Base.++
+                          @ GHC.Types.Char
+                          Devrant.$fShowRant10
+                          (GHC.Types.:
+                             @ GHC.Types.Char
+                             GHC.Show.shows8
+                             (GHC.Show.showLitString
+                                ww1
+                                (GHC.Types.:
+                                   @ GHC.Types.Char
+                                   GHC.Show.shows8
+                                   (GHC.Base.++
+                                      @ GHC.Types.Char
+                                      Devrant.$fShowRant5
+                                      (GHC.Base.++
+                                         @ GHC.Types.Char
+                                         Devrant.$fShowRant9
+                                         (case ww2 of ww4 { GHC.Types.I# ww5 ->
+                                          case GHC.Show.$wshowSignedInt
+                                                 0#
+                                                 ww5
+                                                 (GHC.Base.++
+                                                    @ GHC.Types.Char
+                                                    Devrant.$fShowRant5
+                                                    (GHC.Base.++
+                                                       @ GHC.Types.Char
+                                                       Devrant.$fShowRant8
+                                                       (case ww3 of ww6 { Devrant.User ww7 ww8 ww9 ->
+                                                        Devrant.$w$cshowsPrec1
+                                                          0#
+                                                          ww7
+                                                          ww8
+                                                          ww9
+                                                          (GHC.Base.++
+                                                             @ GHC.Types.Char
+                                                             Devrant.$fShowRant2
+                                                             x) }))) of ww6 { (#,#) ww7 ww8 ->
+                                          GHC.Types.: @ GHC.Types.Char ww7 ww8 } })))))))
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11#) of wild {
+                   GHC.Types.False -> p w
+                   GHC.Types.True
+                   -> GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows9
+                        (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows6 w)) }) -}
+4a7a5ec5015029f3778f35879f83ac37
+  $w$cshowsPrec1 ::
+    GHC.Prim.Int#
+    -> GHC.Base.String
+    -> GHC.Types.Int
+    -> GHC.Types.Int
+    -> GHC.Base.String
+    -> GHC.Base.String
+  {- Arity: 5, Strictness: <S,U><L,1*U><L,1*U(U)><L,1*U(U)><L,U>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: GHC.Base.String)
+                   (ww2 :: GHC.Types.Int)
+                   (ww3 :: GHC.Types.Int)
+                   (w :: GHC.Base.String) ->
+                 let {
+                   p :: GHC.Show.ShowS {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ (x :: GHC.Base.String)[OneShot] ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Devrant.$fShowRant7
+                       (GHC.Base.++
+                          @ GHC.Types.Char
+                          Devrant.$fShowRant6
+                          (GHC.Types.:
+                             @ GHC.Types.Char
+                             GHC.Show.shows8
+                             (GHC.Show.showLitString
+                                ww1
+                                (GHC.Types.:
+                                   @ GHC.Types.Char
+                                   GHC.Show.shows8
+                                   (GHC.Base.++
+                                      @ GHC.Types.Char
+                                      Devrant.$fShowRant5
+                                      (GHC.Base.++
+                                         @ GHC.Types.Char
+                                         Devrant.$fShowRant4
+                                         (case ww2 of ww4 { GHC.Types.I# ww5 ->
+                                          case GHC.Show.$wshowSignedInt
+                                                 0#
+                                                 ww5
+                                                 (GHC.Base.++
+                                                    @ GHC.Types.Char
+                                                    Devrant.$fShowRant5
+                                                    (GHC.Base.++
+                                                       @ GHC.Types.Char
+                                                       Devrant.$fShowRant3
+                                                       (case ww3 of ww6 { GHC.Types.I# ww7 ->
+                                                        case GHC.Show.$wshowSignedInt
+                                                               0#
+                                                               ww7
+                                                               (GHC.Base.++
+                                                                  @ GHC.Types.Char
+                                                                  Devrant.$fShowRant2
+                                                                  x) of ww8 { (#,#) ww9 ww10 ->
+                                                        GHC.Types.:
+                                                          @ GHC.Types.Char
+                                                          ww9
+                                                          ww10 } }))) of ww6 { (#,#) ww7 ww8 ->
+                                          GHC.Types.: @ GHC.Types.Char ww7 ww8 } })))))))
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11#) of wild {
+                   GHC.Types.False -> p w
+                   GHC.Types.True
+                   -> GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows9
+                        (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows6 w)) }) -}
+709f4edf0ca7f3f758b25547d3bb324d
+  $w$j ::
+    GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Array# (Data.Aeson.Types.Internal.Result Devrant.Rant)
+    -> Data.Aeson.Types.Internal.Result [Devrant.Rant]
+  {- Arity: 3, Strictness: <L,U><S,U><L,U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)[OneShot]
+                   (ww1 :: GHC.Prim.Int#)[OneShot]
+                   (ww2 :: GHC.Prim.Array#
+                             (Data.Aeson.Types.Internal.Result Devrant.Rant))[OneShot] ->
+                 letrec {
+                   $wgo :: GHC.Prim.Int# -> Data.Monoid.All
+                     {- Arity: 1, Strictness: <S,U>, Inline: [0] -}
+                   = \ (ww3 :: GHC.Prim.Int#) ->
+                     case GHC.Prim.tagToEnum#
+                            @ GHC.Types.Bool
+                            (GHC.Prim.>=# ww3 ww1) of wild {
+                       GHC.Types.False
+                       -> case GHC.Prim.indexArray#
+                                 @ (Data.Aeson.Types.Internal.Result Devrant.Rant)
+                                 ww2
+                                 (GHC.Prim.+# ww ww3) of ds2 { Unit# ipv ->
+                          case ipv of wild1 {
+                            Data.Aeson.Types.Internal.Error e
+                            -> GHC.Types.False `cast` (Sym (Data.Monoid.N:All[0]))
+                            Data.Aeson.Types.Internal.Success v
+                            -> $wgo (GHC.Prim.+# ww3 1#) } }
+                       GHC.Types.True
+                       -> GHC.Types.True `cast` (Sym (Data.Monoid.N:All[0])) }
+                 } in
+                 case ($wgo 0#) `cast` (Data.Monoid.N:All[0]) of wild {
+                   GHC.Types.False -> Devrant.getRants3
+                   GHC.Types.True
+                   -> Data.Aeson.Types.Internal.Success
+                        @ [Devrant.Rant]
+                        (letrec {
+                           $wgo1 :: GHC.Prim.Int# -> [Devrant.Rant]
+                             {- Arity: 1, Strictness: <S,U>, Inline: [0] -}
+                           = \ (ww3 :: GHC.Prim.Int#) ->
+                             case GHC.Prim.tagToEnum#
+                                    @ GHC.Types.Bool
+                                    (GHC.Prim.>=# ww3 ww1) of wild1 {
+                               GHC.Types.False
+                               -> case GHC.Prim.indexArray#
+                                         @ (Data.Aeson.Types.Internal.Result Devrant.Rant)
+                                         ww2
+                                         (GHC.Prim.+# ww ww3) of ds2 { Unit# ipv ->
+                                  GHC.Types.:
+                                    @ Devrant.Rant
+                                    (case ipv of wild2 {
+                                       Data.Aeson.Types.Internal.Error ipv1 -> Devrant.getRants2
+                                       Data.Aeson.Types.Internal.Success v -> v })
+                                    ($wgo1 (GHC.Prim.+# ww3 1#)) }
+                               GHC.Types.True -> GHC.Types.[] @ Devrant.Rant }
+                         } in
+                         $wgo1 0#) }) -}
+ea93d1b6c45aa09227d59567a5c64b3e
+  $w$slookup ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.HashMap.Base.HashMap Data.Text.Internal.Text v
+    -> GHC.Base.Maybe v
+  {- Arity: 4, HasNoCafRefs, Strictness: <S,U><S,U><S,U><S,1*U>,
+     Inline: [0],
+     Unfolding: (\ @ v
+                   (ww :: GHC.Prim.ByteArray#)
+                   (ww1 :: GHC.Prim.Int#)
+                   (ww2 :: GHC.Prim.Int#)
+                   (w :: Data.HashMap.Base.HashMap Data.Text.Internal.Text v) ->
+                 case {__pkg_ccall hashable-1.2.5.0@hashable-1.2.5.0-K11OC2HRAN471pd3DIyjZw hashable_fnv_hash_offset GHC.Prim.ByteArray#
+                                                                                                                     -> GHC.Prim.Int#
+                                                                                                                     -> GHC.Prim.Int#
+                                                                                                                     -> GHC.Prim.Int#
+                                                                                                                     -> GHC.Prim.State#
+                                                                                                                          GHC.Prim.RealWorld
+                                                                                                                     -> (# GHC.Prim.State#
+                                                                                                                             GHC.Prim.RealWorld,
+                                                                                                                           GHC.Prim.Int# #)}
+                        ww
+                        (GHC.Prim.uncheckedIShiftL# ww1 1#)
+                        (GHC.Prim.uncheckedIShiftL# ww2 1#)
+                        -2578643520546668380#
+                        GHC.Prim.realWorld# of wild { (#,#) ds ds1 ->
+                 Devrant.$wpoly_go2
+                   @ v
+                   (GHC.Prim.int2Word# ds1)
+                   ww
+                   ww1
+                   ww2
+                   0#
+                   w }) -}
+eaa362585d63e8f55163748ce50b1bf5
+  $wpoly_go1 ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Array#
+         (Data.HashMap.Base.Leaf Data.Text.Internal.Text v)
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Base.Maybe v
+  {- Arity: 6, HasNoCafRefs,
+     Strictness: <L,U><L,U><L,U><S,U><S,U><S,U>, Inline: [0] -}
+5069650b8c49443974e0dfcd980f7dc3
+  $wpoly_go2 ::
+    GHC.Prim.Word#
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.HashMap.Base.HashMap Data.Text.Internal.Text v
+    -> GHC.Base.Maybe v
+  {- Arity: 6, HasNoCafRefs,
+     Strictness: <L,U><L,U><L,U><L,U><L,U><S,1*U>, Inline: [0] -}
+8237e31366509e9a6f632ba0a2abae20
+  data Rant
+    = Rant {text :: GHC.Base.String,
+            rantID :: GHC.Types.Int,
+            user :: Devrant.User}
+641b8ebaf322c89278a35f3dceb98750
+  data User
+    = User {username :: GHC.Base.String,
+            userID :: GHC.Types.Int,
+            userScore :: GHC.Types.Int}
+b2d09666a99d6bd2f9dc658fd5e86827
+  getRant ::
+    GHC.Types.Int
+    -> GHC.Types.IO (Data.Aeson.Types.Internal.Result Devrant.Rant)
+  {- Arity: 2, Strictness: <L,1*U(U)><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Devrant.getRant1
+                  `cast`
+                (<GHC.Types.Int>_R
+                 ->_R Sym (GHC.Types.N:IO[0]
+                               <Data.Aeson.Types.Internal.Result Devrant.Rant>_R)) -}
+ccc018e52dd8d543453b2dcb682545b5
+  getRant1 ::
+    GHC.Types.Int
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Aeson.Types.Internal.Result Devrant.Rant #)
+  {- Arity: 2, Strictness: <L,1*U(U)><S,U>,
+     Unfolding: (\ (rantID1 :: GHC.Types.Int)
+                   (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case Devrant.getRant8
+                        (GHC.CString.unpackAppendCString#
+                           "devrant/rants/"#
+                           (case rantID1 of ww2 { GHC.Types.I# ww3 ->
+                            case GHC.Show.$wshowSignedInt
+                                   0#
+                                   ww3
+                                   (GHC.Types.[] @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
+                            GHC.Types.: @ GHC.Types.Char ww5 ww6 } }))
+                        (GHC.Types.[] @ (GHC.Base.String, GHC.Base.String))
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 (# ipv,
+                    case Devrant.getRant7 of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                    case Devrant.$w$slookup
+                           @ Data.Aeson.Types.Internal.Value
+                           ww1
+                           ww2
+                           ww3
+                           ipv1 of wild {
+                      GHC.Base.Nothing -> Devrant.getRant5
+                      GHC.Base.Just v
+                      -> case v of wild1 {
+                           DEFAULT
+                           -> (Data.Aeson.Types.FromJSON.typeMismatch
+                                 @ Devrant.Rant
+                                 Devrant.getRant4
+                                 wild1)
+                                `cast`
+                              (Data.Aeson.Types.Internal.N:Parser[0] <Devrant.Rant>_R)
+                                @ Data.Aeson.Types.Internal.Result
+                                @ Devrant.Rant
+                                (GHC.Types.[] @ Data.Aeson.Types.Internal.JSONPathElement)
+                                Devrant.getRant3
+                                (Data.Aeson.Types.Internal.Success @ Devrant.Rant)
+                           Data.Aeson.Types.Internal.Object obj
+                           -> Devrant.getRant2
+                                obj
+                                @ Data.Aeson.Types.Internal.Result
+                                @ Devrant.Rant
+                                (GHC.Types.[] @ Data.Aeson.Types.Internal.JSONPathElement)
+                                Devrant.getRant3
+                                (Data.Aeson.Types.Internal.Success @ Devrant.Rant) } } } #) }) -}
+d05d18e762d8f6a7555c805eebd12bc7
+  getRant2 ::
+    Data.Aeson.Types.Internal.Object
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success Devrant.Rant f r
+       -> f r
+  {- Arity: 4, Strictness: <S,U><L,U><L,U><L,C(U)> -}
+fd829efb6eebfc38df0699cd0dc3f7f5
+  getRant3 ::
+    Data.Aeson.Types.Internal.JSONPath
+    -> GHC.Base.String -> Data.Aeson.Types.Internal.Result Devrant.Rant
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,A><L,U>,
+     Unfolding: InlineRule (2, True, True)
+                (\ (ds :: Data.Aeson.Types.Internal.JSONPath)
+                   (eta :: GHC.Base.String) ->
+                 Data.Aeson.Types.Internal.Error @ Devrant.Rant eta) -}
+b7ed15d57b8dd4a3fb8c0c6e66a67ce9
+  getRant4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "rant"#) -}
+e5e538066652dae13b204de7221a3805
+  getRant5 :: Data.Aeson.Types.Internal.Result Devrant.Rant
+  {- Unfolding: (Data.Aeson.Types.Internal.Error
+                   @ Devrant.Rant
+                   Devrant.getRant6) -}
+28b74db9b29a4be394a12076d48df424
+  getRant6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Request Failed"#) -}
+05e092da9ff7a76d0279dd2d24aa3cae
+  getRant7 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "rant"#) -}
+1de833fd98cc59008358042438d5998b
+  getRant8 ::
+    GHC.Base.String
+    -> [(GHC.Base.String, GHC.Base.String)]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Aeson.Types.Internal.Object #)
+  {- Arity: 3, Strictness: <L,1*U><L,1*U><S,U>,
+     Unfolding: (\ (path :: GHC.Base.String)
+                   (args :: [(GHC.Base.String, GHC.Base.String)])
+                   (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case (Network.HTTP.Client.Request.parseRequest
+                         @ GHC.Types.IO
+                         Control.Monad.Catch.$fMonadThrowIO
+                         (GHC.CString.unpackAppendCString#
+                            "GET https://www.devrant.io/api/"#
+                            (GHC.Base.++
+                               @ GHC.Types.Char
+                               path
+                               (GHC.CString.unpackAppendCString#
+                                  "?app=3"#
+                                  (Devrant.getRant_go args (GHC.Types.[] @ GHC.Types.Char))))))
+                        `cast`
+                      (GHC.Types.N:IO[0] <Network.HTTP.Client.Types.Request>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case (Network.HTTP.Simple.httpJSONEither
+                         @ GHC.Types.IO
+                         @ Data.Aeson.Types.Internal.Object
+                         Control.Monad.IO.Class.$fMonadIOIO
+                         Devrant.$s$fFromJSONHashMap
+                         ipv1)
+                        `cast`
+                      (GHC.Types.N:IO[0]
+                           <Network.HTTP.Client.Types.Response
+                              (Data.Either.Either
+                                 Network.HTTP.Simple.JSONException
+                                 Data.Aeson.Types.Internal.Object)>_R)
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case ipv3 of ww { Network.HTTP.Client.Types.Response ww1 ww2 ww3 ww4 ww5 ww6 ->
+                 case ww4 of wild {
+                   Data.Either.Left x
+                   -> GHC.Prim.raiseIO#
+                        @ GHC.Exception.SomeException
+                        @ Data.Aeson.Types.Internal.Object
+                        (Network.HTTP.Simple.$fExceptionJSONException_$ctoException x)
+                        ipv2
+                   Data.Either.Right y -> (# ipv2, y #) } } } }) -}
+53341ff996e27d94f477c2884f3871a0
+  getRant_go ::
+    [([GHC.Types.Char], [GHC.Types.Char])]
+    -> [GHC.Types.Char] -> [GHC.Types.Char]
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U> -}
+da560d096811814711f4a82cba71a0fc
+  getRants ::
+    GHC.Base.String
+    -> GHC.Types.Int
+    -> GHC.Types.Int
+    -> GHC.Types.IO (Data.Aeson.Types.Internal.Result [Devrant.Rant])
+  {- Arity: 4, Strictness: <L,U><L,U(U)><L,U(U)><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Devrant.getRants1
+                  `cast`
+                (<GHC.Base.String>_R
+                 ->_R <GHC.Types.Int>_R
+                 ->_R <GHC.Types.Int>_R
+                 ->_R Sym (GHC.Types.N:IO[0]
+                               <Data.Aeson.Types.Internal.Result [Devrant.Rant]>_R)) -}
+8c4a16ff8bdfee19dd186490dddd0cc4
+  getRants1 ::
+    GHC.Base.String
+    -> GHC.Types.Int
+    -> GHC.Types.Int
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Aeson.Types.Internal.Result [Devrant.Rant] #)
+  {- Arity: 4, Strictness: <L,U><L,U(U)><L,U(U)><S,U>,
+     Unfolding: (\ (sort :: GHC.Base.String)
+                   (limit :: GHC.Types.Int)
+                   (skip :: GHC.Types.Int)
+                   (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case (Network.HTTP.Client.Request.parseRequest
+                         @ GHC.Types.IO
+                         Control.Monad.Catch.$fMonadThrowIO
+                         (GHC.CString.unpackAppendCString#
+                            "GET https://www.devrant.io/api/devrant/rants?app=3&sort="#
+                            (GHC.Base.++
+                               @ GHC.Types.Char
+                               sort
+                               (GHC.CString.unpackAppendCString#
+                                  "&limit="#
+                                  (case limit of ww2 { GHC.Types.I# ww3 ->
+                                   case GHC.Show.$wshowSignedInt
+                                          0#
+                                          ww3
+                                          (GHC.Types.[] @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
+                                   GHC.Base.++
+                                     @ GHC.Types.Char
+                                     (GHC.Types.: @ GHC.Types.Char ww5 ww6)
+                                     (GHC.CString.unpackAppendCString#
+                                        "&skip="#
+                                        (case skip of ww1 { GHC.Types.I# ww8 ->
+                                         case GHC.Show.$wshowSignedInt
+                                                0#
+                                                ww8
+                                                (GHC.Types.[]
+                                                   @ GHC.Types.Char) of ww9 { (#,#) ww10 ww11 ->
+                                         GHC.Types.: @ GHC.Types.Char ww10 ww11 } })) } })))))
+                        `cast`
+                      (GHC.Types.N:IO[0] <Network.HTTP.Client.Types.Request>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case Devrant.getRant8
+                        Devrant.getRants12
+                        (GHC.Types.:
+                           @ (GHC.Base.String, GHC.Base.String)
+                           (Devrant.getRants11, sort)
+                           (GHC.Types.:
+                              @ (GHC.Base.String, GHC.Base.String)
+                              (Devrant.getRants10, GHC.Show.$fShowInt_$cshow limit)
+                              (GHC.Types.:
+                                 @ (GHC.Base.String, GHC.Base.String)
+                                 (Devrant.getRants9, GHC.Show.$fShowInt_$cshow skip)
+                                 (GHC.Types.[] @ (GHC.Base.String, GHC.Base.String)))))
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 (# ipv2,
+                    case Devrant.getRants8 of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                    case Devrant.$w$slookup
+                           @ Data.Aeson.Types.Internal.Value
+                           ww1
+                           ww2
+                           ww3
+                           ipv3 of wild {
+                      GHC.Base.Nothing -> Devrant.getRants7
+                      GHC.Base.Just v -> Devrant.toRants v } } #) } }) -}
+ab70cf306455c5b39ac5a810e44f11a2
+  getRants10 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "limit"#) -}
+912d961310ff84a5d1dda383653f47f7
+  getRants11 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "sort"#) -}
+4438de88d26724caddc520cd0455b490
+  getRants12 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "devrant/rants"#) -}
+5c0d967ac93fc4758b2370e923edf799
+  getRants2 :: Devrant.Rant
+  {- Strictness: x -}
+b31b9453c838ecddad3a868e96d039b5
+  getRants3 :: Data.Aeson.Types.Internal.Result [Devrant.Rant]
+  {- Strictness: m1,
+     Unfolding: (Data.Aeson.Types.Internal.Error
+                   @ [Devrant.Rant]
+                   Devrant.getRants4) -}
+d6a8b5dbe7bf14ccd7eb1af5994a5e18
+  getRants4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "Something went wrong"#) -}
+530e14ecc93467f810a7359004564492
+  getRants5 ::
+    Data.Aeson.Types.Internal.JSONPath
+    -> GHC.Base.String
+    -> Data.Aeson.Types.Internal.Result
+         (Data.Vector.Vector
+            (Data.Aeson.Types.Internal.Result Devrant.Rant))
+  {- Arity: 2, HasNoCafRefs,
+     Unfolding: (\ (ds :: Data.Aeson.Types.Internal.JSONPath)
+                   (eta :: GHC.Base.String) ->
+                 Data.Aeson.Types.Internal.Error
+                   @ (Data.Vector.Vector
+                        (Data.Aeson.Types.Internal.Result Devrant.Rant))
+                   eta) -}
+23ae76d41340d8a1a0fd0db0351b4837
+  getRants6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "rants"#) -}
+812aeabc8ac0d00110af3767b9f01c0e
+  getRants7 :: Data.Aeson.Types.Internal.Result [Devrant.Rant]
+  {- Unfolding: (Data.Aeson.Types.Internal.Error
+                   @ [Devrant.Rant]
+                   Devrant.getRant6) -}
+d89fd8f4fb8ec42e0d558dc82d927cdf
+  getRants8 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "rants"#) -}
+14e17ebbca4c3a221b7b7b8200976180
+  getRants9 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "skip"#) -}
+b06de1eb5a68f29895875240923c7c79
+  rantID :: Devrant.Rant -> GHC.Types.Int
+  RecSel Left Devrant.Rant
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LSL),1*U(A,1*U(U),A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Devrant.Rant) ->
+                 case ds of wild { Devrant.Rant ds1 ds2 ds3 -> ds2 }) -}
+56a0311d0911b32c7aba0a1a1e40fae9
+  searchRants ::
+    GHC.Base.String
+    -> GHC.Types.IO (Data.Aeson.Types.Internal.Result [Devrant.Rant])
+  {- Arity: 2, Strictness: <L,U><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Devrant.searchRants1
+                  `cast`
+                (<GHC.Base.String>_R
+                 ->_R Sym (GHC.Types.N:IO[0]
+                               <Data.Aeson.Types.Internal.Result [Devrant.Rant]>_R)) -}
+5a8604885998a64b6ba9a2f0b42b6a9b
+  searchRants1 ::
+    GHC.Base.String
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Aeson.Types.Internal.Result [Devrant.Rant] #)
+  {- Arity: 2, Strictness: <L,U><S,U>,
+     Unfolding: (\ (term :: GHC.Base.String)
+                   (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case Devrant.getRant8
+                        Devrant.searchRants4
+                        (GHC.Types.:
+                           @ (GHC.Base.String, GHC.Base.String)
+                           (Devrant.searchRants3, term)
+                           (GHC.Types.[] @ (GHC.Base.String, GHC.Base.String)))
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 (# ipv,
+                    case Devrant.searchRants2 of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                    case Devrant.$w$slookup
+                           @ Data.Aeson.Types.Internal.Value
+                           ww1
+                           ww2
+                           ww3
+                           ipv1 of wild {
+                      GHC.Base.Nothing -> Devrant.getRants7
+                      GHC.Base.Just v -> Devrant.toRants v } } #) }) -}
+962512195e54a356e3b313efa59bfed5
+  searchRants2 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "results"#) -}
+7d041b30cf5ed20dc080c63613887ff8
+  searchRants3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "term"#) -}
+e141c3abc99ecb2574cb228b032a496e
+  searchRants4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "devrant/search"#) -}
+38c5e1413ecfa9b7cc62c6e7860fe301
+  text :: Devrant.Rant -> GHC.Base.String
+  RecSel Left Devrant.Rant
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SLL),1*U(1*U,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Devrant.Rant) ->
+                 case ds of wild { Devrant.Rant ds1 ds2 ds3 -> ds1 }) -}
+3303f9cdb263a3008963dad80e6f4e08
+  toRants ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Result [Devrant.Rant]
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (v :: Data.Aeson.Types.Internal.Value) ->
+                 case v of wild {
+                   DEFAULT
+                   -> case (Data.Aeson.Types.FromJSON.typeMismatch
+                              @ (Data.Vector.Vector
+                                   (Data.Aeson.Types.Internal.Result Devrant.Rant))
+                              Devrant.getRants6
+                              wild)
+                             `cast`
+                           (Data.Aeson.Types.Internal.N:Parser[0]
+                                <Data.Vector.Vector
+                                   (Data.Aeson.Types.Internal.Result Devrant.Rant)>_R)
+                             @ Data.Aeson.Types.Internal.Result
+                             @ (Data.Vector.Vector
+                                  (Data.Aeson.Types.Internal.Result Devrant.Rant))
+                             (GHC.Types.[] @ Data.Aeson.Types.Internal.JSONPathElement)
+                             Devrant.getRants5
+                             (Data.Aeson.Types.Internal.Success
+                                @ (Data.Vector.Vector
+                                     (Data.Aeson.Types.Internal.Result Devrant.Rant))) of wild1 {
+                        Data.Aeson.Types.Internal.Error e
+                        -> Data.Aeson.Types.Internal.Error @ [Devrant.Rant] e
+                        Data.Aeson.Types.Internal.Success v1
+                        -> case v1 of ww { Data.Vector.Vector ww1 ww2 ww3 ->
+                           Devrant.$w$j ww1 ww2 ww3 } }
+                   Data.Aeson.Types.Internal.Array arr
+                   -> case arr of wild1 { Data.Vector.Vector dt dt1 dt2 ->
+                      case GHC.Magic.runRW#
+                             @ 'GHC.Types.PtrRepLifted
+                             @ (Data.Vector.Vector
+                                  (Data.Aeson.Types.Internal.Result Devrant.Rant))
+                             (\ (s1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                              case GHC.Prim.newArray#
+                                     @ (Data.Aeson.Types.Internal.Result Devrant.Rant)
+                                     @ (Control.Monad.Primitive.PrimState
+                                          (GHC.ST.ST GHC.Prim.RealWorld))
+                                     dt1
+                                     (Data.Vector.Mutable.uninitialised
+                                        @ (Data.Aeson.Types.Internal.Result Devrant.Rant))
+                                     s1
+                                       `cast`
+                                     (GHC.Prim.State#
+                                        (Sym (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                  <GHC.Prim.RealWorld>_N)))_R of ds1 { (#,#) ipv ipv1 ->
+                              letrec {
+                                $wfoldlM'_loop :: GHC.Types.SPEC
+                                                  -> GHC.Prim.Int#
+                                                  -> GHC.Prim.Int#
+                                                  -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                  -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+                                                        GHC.Types.Int #)
+                                  {- Arity: 4, Strictness: <S,1*U><L,U><S,U><S,U>, Inline: [0] -}
+                                = \ (w :: GHC.Types.SPEC)
+                                    (ww :: GHC.Prim.Int#)
+                                    (ww1 :: GHC.Prim.Int#)
+                                    (w1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                                  case w of ds5 { DEFAULT ->
+                                  case GHC.Prim.tagToEnum#
+                                         @ GHC.Types.Bool
+                                         (GHC.Prim.>=# ww1 dt1) of wild2 {
+                                    GHC.Types.False
+                                    -> case GHC.Prim.writeArray#
+                                              @ (Control.Monad.Primitive.PrimState
+                                                   (GHC.ST.ST GHC.Prim.RealWorld))
+                                              @ (Data.Aeson.Types.Internal.Result Devrant.Rant)
+                                              ipv1
+                                              ww
+                                              (case GHC.Prim.indexArray#
+                                                      @ Data.Aeson.Types.Internal.Value
+                                                      dt2
+                                                      (GHC.Prim.+# dt ww1) of ds2 { Unit# ipv2 ->
+                                               case ipv2 of wild3 {
+                                                 DEFAULT
+                                                 -> (Data.Aeson.Types.FromJSON.typeMismatch
+                                                       @ Devrant.Rant
+                                                       Devrant.getRant4
+                                                       wild3)
+                                                      `cast`
+                                                    (Data.Aeson.Types.Internal.N:Parser[0]
+                                                         <Devrant.Rant>_R)
+                                                      @ Data.Aeson.Types.Internal.Result
+                                                      @ Devrant.Rant
+                                                      (GHC.Types.[]
+                                                         @ Data.Aeson.Types.Internal.JSONPathElement)
+                                                      Devrant.getRant3
+                                                      (Data.Aeson.Types.Internal.Success
+                                                         @ Devrant.Rant)
+                                                 Data.Aeson.Types.Internal.Object obj
+                                                 -> Devrant.getRant2
+                                                      obj
+                                                      @ Data.Aeson.Types.Internal.Result
+                                                      @ Devrant.Rant
+                                                      (GHC.Types.[]
+                                                         @ Data.Aeson.Types.Internal.JSONPathElement)
+                                                      Devrant.getRant3
+                                                      (Data.Aeson.Types.Internal.Success
+                                                         @ Devrant.Rant) } })
+                                              w1
+                                                `cast`
+                                              (GHC.Prim.State#
+                                                 (Sym (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                           <GHC.Prim.RealWorld>_N)))_R of s'# { DEFAULT ->
+                                       $wfoldlM'_loop
+                                         GHC.Types.SPEC
+                                         (GHC.Prim.+# ww 1#)
+                                         (GHC.Prim.+# ww1 1#)
+                                         s'#
+                                           `cast`
+                                         (GHC.Prim.State#
+                                            (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                 <GHC.Prim.RealWorld>_N))_R }
+                                    GHC.Types.True -> (# w1, GHC.Types.I# ww #) } }
+                              } in
+                              case $wfoldlM'_loop
+                                     GHC.Types.SPEC
+                                     0#
+                                     0#
+                                     ipv
+                                       `cast`
+                                     (GHC.Prim.State#
+                                        (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                             <GHC.Prim.RealWorld>_N))_R of ds2 { (#,#) ipv6 ipv7 ->
+                              case ipv7 of dt5 { GHC.Types.I# dt6 ->
+                              case GHC.Prim.unsafeFreezeArray#
+                                     @ (Control.Monad.Primitive.PrimState
+                                          (GHC.ST.ST GHC.Prim.RealWorld))
+                                     @ (Data.Aeson.Types.Internal.Result Devrant.Rant)
+                                     ipv1
+                                     ipv6
+                                       `cast`
+                                     (GHC.Prim.State#
+                                        (Sym (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                  <GHC.Prim.RealWorld>_N)))_R of ds4 { (#,#) ipv2 ipv3 ->
+                              (# ipv2
+                                   `cast`
+                                 (GHC.Prim.State#
+                                    (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                         <GHC.Prim.RealWorld>_N))_R,
+                                 Data.Vector.Vector
+                                   @ (Data.Aeson.Types.Internal.Result Devrant.Rant)
+                                   0#
+                                   dt6
+                                   ipv3 #) } } } }) of ds1 { (#,#) ipv1 ipv2 ->
+                      case ipv2 of ww { Data.Vector.Vector ww1 ww2 ww3 ->
+                      Devrant.$w$j ww1 ww2 ww3 } } } }) -}
+e3c0e14f55ea8d2dda49a5247404c0da
+  user :: Devrant.Rant -> Devrant.User
+  RecSel Left Devrant.Rant
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLS),1*U(A,A,1*U(U,U,U))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Devrant.Rant) ->
+                 case ds of wild { Devrant.Rant ds1 ds2 ds3 -> ds3 }) -}
+e04d80eb2838c12ff1e4a4801b2dadfa
+  userID :: Devrant.User -> GHC.Types.Int
+  RecSel Left Devrant.User
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LSL),1*U(A,1*U(U),A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Devrant.User) ->
+                 case ds of wild { Devrant.User ds1 ds2 ds3 -> ds2 }) -}
+ae5bf03d3971b7d73987990917a078c4
+  userScore :: Devrant.User -> GHC.Types.Int
+  RecSel Left Devrant.User
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LLS),1*U(A,A,1*U(U))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Devrant.User) ->
+                 case ds of wild { Devrant.User ds1 ds2 ds3 -> ds3 }) -}
+f99ecbdf17cad6618d56d4bdbda43748
+  username :: Devrant.User -> GHC.Base.String
+  RecSel Left Devrant.User
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SLL),1*U(1*U,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Devrant.User) ->
+                 case ds of wild { Devrant.User ds1 ds2 ds3 -> ds1 }) -}
+instance GHC.Show.Show [Devrant.Rant] = Devrant.$fShowRant
+instance GHC.Show.Show [Devrant.User] = Devrant.$fShowUser
+"SPEC/Devrant $fFromJSONHashMap @ Value @ Text" [ALWAYS] forall ($dFromJSON :: Data.Aeson.Types.FromJSON.FromJSON
+                                                                                 Data.Aeson.Types.Internal.Value)
+                                                                ($dFromJSONKey :: Data.Aeson.Types.FromJSON.FromJSONKey
+                                                                                    Data.Text.Internal.Text)
+                                                                ($dEq :: GHC.Classes.Eq
+                                                                           Data.Text.Internal.Text)
+                                                                ($dHashable :: Data.Hashable.Class.Hashable
+                                                                                 Data.Text.Internal.Text)
+  Data.Aeson.Types.FromJSON.$fFromJSONHashMap @ Data.Aeson.Types.Internal.Value
+                                              @ Data.Text.Internal.Text
+                                              $dFromJSON
+                                              $dFromJSONKey
+                                              $dEq
+                                              $dHashable
+  = Devrant.$s$fFromJSONHashMap
+"SPEC/Devrant $fFromJSONHashMap_$cparseJSON @ Value @ Text" [ALWAYS] forall ($dFromJSON :: Data.Aeson.Types.FromJSON.FromJSON
+                                                                                             Data.Aeson.Types.Internal.Value)
+                                                                            ($dFromJSONKey :: Data.Aeson.Types.FromJSON.FromJSONKey
+                                                                                                Data.Text.Internal.Text)
+                                                                            ($dEq :: GHC.Classes.Eq
+                                                                                       Data.Text.Internal.Text)
+                                                                            ($dHashable :: Data.Hashable.Class.Hashable
+                                                                                             Data.Text.Internal.Text)
+  Data.Aeson.Types.FromJSON.$fFromJSONHashMap_$cparseJSON @ Data.Aeson.Types.Internal.Value
+                                                          @ Data.Text.Internal.Text
+                                                          $dFromJSON
+                                                          $dFromJSONKey
+                                                          $dEq
+                                                          $dHashable
+  = Devrant.$s$fFromJSONHashMap_$cparseJSON
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+
