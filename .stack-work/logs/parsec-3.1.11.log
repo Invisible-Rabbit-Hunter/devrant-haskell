@@ -27,5 +27,5 @@ Preprocessing library parsec-3.1.11...
 [24 of 25] Compiling Text.Parsec.Perm ( Text/Parsec/Perm.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Text/Parsec/Perm.o )
 [25 of 25] Compiling Text.ParserCombinators.Parsec.Perm ( Text/ParserCombinators/Parsec/Perm.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Text/ParserCombinators/Parsec/Perm.o )
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/parsec-3.1.11-3WIMUA3wnqVJ4nTQk5XohJ
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/parsec-3.1.11-3WIMUA3wnqVJ4nTQk5XohJ
 Registering parsec-3.1.11...

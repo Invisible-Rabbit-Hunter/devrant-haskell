@@ -39,5 +39,5 @@ Preprocessing library base-compat-0.9.1...
 [36 of 37] Compiling Control.Concurrent.MVar.Compat ( src/Control/Concurrent/MVar/Compat.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Control/Concurrent/MVar/Compat.o )
 [37 of 37] Compiling Control.Concurrent.Compat ( src/Control/Concurrent/Compat.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Control/Concurrent/Compat.o )
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/base-compat-0.9.1-tmPpmtbHbvIDjFWbkjGrR
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/base-compat-0.9.1-tmPpmtbHbvIDjFWbkjGrR
 Registering base-compat-0.9.1...

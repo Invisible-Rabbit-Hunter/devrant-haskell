@@ -20,5 +20,5 @@ Network/Connection.hs:339:21: warning: [-Wdeprecations]
     In the use of ‘breakByte’ (imported from Data.ByteString):
     Deprecated: "It is an internal function and should never have been exported. Use 'break (== x)' instead. (There are rewrite rules that handle this special case of 'break'.)"
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/connection-0.2.6-FA6fCE44nC6IwhVHmBKrO5
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/connection-0.2.6-FA6fCE44nC6IwhVHmBKrO5
 Registering connection-0.2.6...

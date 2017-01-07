@@ -11,5 +11,5 @@ Preprocessing library lifted-base-0.2.3.8...
 [8 of 9] Compiling Control.Exception.Lifted ( Control/Exception/Lifted.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Control/Exception/Lifted.o )
 [9 of 9] Compiling Control.Concurrent.Lifted ( Control/Concurrent/Lifted.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Control/Concurrent/Lifted.o )
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/lifted-base-0.2.3.8-KLkd0w1UJqu6nE8oVTTEBy
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/lifted-base-0.2.3.8-KLkd0w1UJqu6nE8oVTTEBy
 Registering lifted-base-0.2.3.8...

@@ -24,5 +24,5 @@ Preprocessing library mtl-2.2.1...
 [21 of 22] Compiling Control.Monad.Writer.Strict ( Control/Monad/Writer/Strict.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Control/Monad/Writer/Strict.o )
 [22 of 22] Compiling Control.Monad.Cont ( Control/Monad/Cont.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Control/Monad/Cont.o )
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/mtl-2.2.1-6qsR1PHUy5lL47Hpoa4jCM
 Registering mtl-2.2.1...

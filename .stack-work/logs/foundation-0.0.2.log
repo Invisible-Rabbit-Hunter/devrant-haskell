@@ -101,5 +101,5 @@ Foundation/String/ASCII.hs:189:11: warning: [-Winline-rule-shadowing]
 [88 of 89] Compiling Foundation.Tuple.Nth ( Foundation/Tuple/Nth.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foundation/Tuple/Nth.o )
 [89 of 89] Compiling Foundation       ( Foundation.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Foundation.o )
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/foundation-0.0.2-89YGReVRtRBBWcW0btG0KB
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/foundation-0.0.2-89YGReVRtRBBWcW0btG0KB
 Registering foundation-0.0.2...

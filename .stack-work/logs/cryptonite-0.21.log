@@ -138,5 +138,5 @@ Crypto/Cipher/Types/Block.hs:167:1: warning: [-Wredundant-constraints]
 [110 of 111] Compiling Crypto.PubKey.Ed25519 ( Crypto/PubKey/Ed25519.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Crypto/PubKey/Ed25519.o )
 [111 of 111] Compiling Crypto.Cipher.AES ( Crypto/Cipher/AES.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Crypto/Cipher/AES.o )
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/cryptonite-0.21-HrdKDcMPHtdIepdDb5HofB
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/cryptonite-0.21-HrdKDcMPHtdIepdDb5HofB
 Registering cryptonite-0.21...

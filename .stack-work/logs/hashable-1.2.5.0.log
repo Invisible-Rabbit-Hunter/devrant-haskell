@@ -11,5 +11,5 @@ Data/Hashable/Class.hs:594:28: warning: [-Wdeprecations]
 [3 of 4] Compiling Data.Hashable.Lifted ( Data/Hashable/Lifted.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Hashable/Lifted.o )
 [4 of 4] Compiling Data.Hashable    ( Data/Hashable.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Hashable.o )
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/hashable-1.2.5.0-K11OC2HRAN471pd3DIyjZw
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/hashable-1.2.5.0-K11OC2HRAN471pd3DIyjZw
 Registering hashable-1.2.5.0...

@@ -31,5 +31,5 @@ Control/Monad/Primitive.hs:101:19: warning: [-Wdeprecations]
 [ 9 of 10] Compiling Data.Primitive   ( Data/Primitive.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Primitive.o )
 [10 of 10] Compiling Data.Primitive.MutVar ( Data/Primitive/MutVar.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Primitive/MutVar.o )
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa
 Registering primitive-0.6.1.0...

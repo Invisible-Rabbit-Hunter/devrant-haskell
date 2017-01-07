@@ -8,5 +8,5 @@ src/Control/Monad/Base.hs:22:1: warning: [-Wunused-imports]
       except perhaps to import instances from ‘Data.Monoid’
     To import instances alone, use: import Data.Monoid()
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/transformers-base-0.4.4-25SoAegOdaF8rLEnnb5jPI
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/transformers-base-0.4.4-25SoAegOdaF8rLEnnb5jPI
 Registering transformers-base-0.4.4...

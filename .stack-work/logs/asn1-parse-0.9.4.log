@@ -8,5 +8,5 @@ Data/ASN1/Parse.hs:30:1: warning: [-Wunused-imports]
       except perhaps to import instances from ‘Control.Applicative’
     To import instances alone, use: import Control.Applicative()
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/asn1-parse-0.9.4-6frCBZ7wx43HUPuxtHsj0C
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/asn1-parse-0.9.4-6frCBZ7wx43HUPuxtHsj0C
 Registering asn1-parse-0.9.4...

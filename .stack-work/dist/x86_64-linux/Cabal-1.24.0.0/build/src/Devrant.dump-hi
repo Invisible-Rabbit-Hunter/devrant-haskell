@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2017-01-05 22:39:11.128221 UTC
+2017-01-07 14:41:38.839495 UTC
 
 interface devrant-0.1.0.0-LZDcfoblXqTAwYXUsZPCux:Devrant 8001
-  interface hash: a55c34bb91d0147b6d757922481f9e9e
-  ABI hash: 1def2570600bb4c582ba0e9fa289826e
+  interface hash: bf047cdc51aa945524942e486533fa6d
+  ABI hash: 4c4bbfb56d29412f2a688040497ba53f
   export-list hash: 780da194f9642ec531e59f776c22a4d0
   orphan hash: 149917fd89c909cc5c36e728e3945f05
   flag hash: 57d900b1c2ee46d04a484fcbe9ab7cf6
@@ -817,13 +817,13 @@ e5e538066652dae13b204de7221a3805
     [([GHC.Types.Char], [GHC.Types.Char])]
     -> [GHC.Types.Char] -> [GHC.Types.Char]
   {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U> -}
-da560d096811814711f4a82cba71a0fc
+81947d714854901fa8cc6dedb4c345f1
   getRants ::
     GHC.Base.String
     -> GHC.Types.Int
     -> GHC.Types.Int
     -> GHC.Types.IO (Data.Aeson.Types.Internal.Result [Devrant.Rant])
-  {- Arity: 4, Strictness: <L,U><L,U(U)><L,U(U)><S,U>,
+  {- Arity: 4, Strictness: <L,U><L,1*U(U)><L,1*U(U)><S,U>,
      Unfolding: InlineRule (0, True, True)
                 Devrant.getRants1
                   `cast`
@@ -832,7 +832,7 @@ da560d096811814711f4a82cba71a0fc
                  ->_R <GHC.Types.Int>_R
                  ->_R Sym (GHC.Types.N:IO[0]
                                <Data.Aeson.Types.Internal.Result [Devrant.Rant]>_R)) -}
-8c4a16ff8bdfee19dd186490dddd0cc4
+b25ee9e32b8a0ada27896dba84c32d1e
   getRants1 ::
     GHC.Base.String
     -> GHC.Types.Int
@@ -840,41 +840,11 @@ da560d096811814711f4a82cba71a0fc
     -> GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
           Data.Aeson.Types.Internal.Result [Devrant.Rant] #)
-  {- Arity: 4, Strictness: <L,U><L,U(U)><L,U(U)><S,U>,
+  {- Arity: 4, Strictness: <L,U><L,1*U(U)><L,1*U(U)><S,U>,
      Unfolding: (\ (sort :: GHC.Base.String)
                    (limit :: GHC.Types.Int)
                    (skip :: GHC.Types.Int)
                    (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
-                 case (Network.HTTP.Client.Request.parseRequest
-                         @ GHC.Types.IO
-                         Control.Monad.Catch.$fMonadThrowIO
-                         (GHC.CString.unpackAppendCString#
-                            "GET https://www.devrant.io/api/devrant/rants?app=3&sort="#
-                            (GHC.Base.++
-                               @ GHC.Types.Char
-                               sort
-                               (GHC.CString.unpackAppendCString#
-                                  "&limit="#
-                                  (case limit of ww2 { GHC.Types.I# ww3 ->
-                                   case GHC.Show.$wshowSignedInt
-                                          0#
-                                          ww3
-                                          (GHC.Types.[] @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
-                                   GHC.Base.++
-                                     @ GHC.Types.Char
-                                     (GHC.Types.: @ GHC.Types.Char ww5 ww6)
-                                     (GHC.CString.unpackAppendCString#
-                                        "&skip="#
-                                        (case skip of ww1 { GHC.Types.I# ww8 ->
-                                         case GHC.Show.$wshowSignedInt
-                                                0#
-                                                ww8
-                                                (GHC.Types.[]
-                                                   @ GHC.Types.Char) of ww9 { (#,#) ww10 ww11 ->
-                                         GHC.Types.: @ GHC.Types.Char ww10 ww11 } })) } })))))
-                        `cast`
-                      (GHC.Types.N:IO[0] <Network.HTTP.Client.Types.Request>_R)
-                        s of ds1 { (#,#) ipv ipv1 ->
                  case Devrant.getRant8
                         Devrant.getRants12
                         (GHC.Types.:
@@ -887,17 +857,17 @@ da560d096811814711f4a82cba71a0fc
                                  @ (GHC.Base.String, GHC.Base.String)
                                  (Devrant.getRants9, GHC.Show.$fShowInt_$cshow skip)
                                  (GHC.Types.[] @ (GHC.Base.String, GHC.Base.String)))))
-                        ipv of ds2 { (#,#) ipv2 ipv3 ->
-                 (# ipv2,
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 (# ipv,
                     case Devrant.getRants8 of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
                     case Devrant.$w$slookup
                            @ Data.Aeson.Types.Internal.Value
                            ww1
                            ww2
                            ww3
-                           ipv3 of wild {
+                           ipv1 of wild {
                       GHC.Base.Nothing -> Devrant.getRants7
-                      GHC.Base.Just v -> Devrant.toRants v } } #) } }) -}
+                      GHC.Base.Just v -> Devrant.toRants v } } #) }) -}
 ab70cf306455c5b39ac5a810e44f11a2
   getRants10 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "limit"#) -}

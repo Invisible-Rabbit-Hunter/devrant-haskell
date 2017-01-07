@@ -10,5 +10,5 @@ Data/PEM.hs:11:1: warning: [-Wtabs]
     Tab character found here, and in one further location.
     Please use spaces instead.
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/pem-0.2.2-qPMQP6sZm3HgQEmiBojNt
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/pem-0.2.2-qPMQP6sZm3HgQEmiBojNt
 Registering pem-0.2.2...

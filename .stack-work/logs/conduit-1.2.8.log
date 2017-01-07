@@ -158,5 +158,5 @@ Data/Conduit/Lift.hs:168:32: warning: [-Wdeprecations]
     (imported from Control.Monad.Trans.Error):
     Deprecated: "Use Control.Monad.Trans.Except instead"
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/conduit-1.2.8-5fgvzhyiRP8I8gw0elzssW
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/conduit-1.2.8-5fgvzhyiRP8I8gw0elzssW
 Registering conduit-1.2.8...

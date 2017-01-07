@@ -1,9 +1,9 @@
 
 ==================== FINAL INTERFACE ====================
-2017-01-05 22:39:12.018474 UTC
+2017-01-07 14:41:40.291923 UTC
 
 interface main@main:Main 8001
-  interface hash: 151a46b0bb65ceac9e54c53346255804
+  interface hash: 410fd5a90eb5f645c7b89d9b419b977d
   ABI hash: 641faa279cb61f860ba2a8f031d937b2
   export-list hash: e93a97da7029d5af4696001a70e11097
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
@@ -179,7 +179,7 @@ import  -/  base-4.9.0.0:Prelude b9bddb97799837fe67a8d00939a5b6c3
 import  -/  base-4.9.0.0:System.Environment ee0914a962f5508d0fd404c89ee4999b
 import  -/  base-4.9.0.0:System.IO eb1d40aa793a4047069a5023f2ebcfe3
 import  -/  base-4.9.0.0:Text.Read 9c1be14f7e5eac8b18bcb566c5763677
-import  -/  devrant-0.1.0.0@devrant-0.1.0.0-LZDcfoblXqTAwYXUsZPCux:Devrant 1def2570600bb4c582ba0e9fa289826e
+import  -/  devrant-0.1.0.0@devrant-0.1.0.0-LZDcfoblXqTAwYXUsZPCux:Devrant 4c4bbfb56d29412f2a688040497ba53f
 import  -/  ghc-prim-0.5.0.0:GHC.Types 7378e41b7749213c8c88ceb6b0665d4c
 import  -/  split-0.2.3.1@split-0.2.3.1-IJKK4pOCYGKud0jZImZke:Data.List.Split 46e8ab9554123893f27696c65d88e63d
 import  -/  split-0.2.3.1@split-0.2.3.1-IJKK4pOCYGKud0jZImZke:Data.List.Split.Internals 91fdfee0190d7e76d57defeef91ab9d3

@@ -86,5 +86,5 @@ Data/Text/Internal/Builder.hs:324:1: warning: [-Winline-rule-shadowing]
 [43 of 44] Compiling Data.Text.Lazy.Builder.RealFloat ( Data/Text/Lazy/Builder/RealFloat.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Text/Lazy/Builder/RealFloat.o )
 [44 of 44] Compiling Data.Text.Read   ( Data/Text/Read.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Text/Read.o )
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-JAnD1x1IHr6H3rdrqlXcyH
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/text-1.2.2.1-JAnD1x1IHr6H3rdrqlXcyH
 Registering text-1.2.2.1...

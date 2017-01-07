@@ -32,5 +32,5 @@ Network/Socks5.hs:117:50: warning: [-Wdeprecations]
     In the use of ‘sClose’ (imported from Network.Socket):
     Deprecated: "use 'close'"
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/socks-0.5.5-GieRokcgjQCIzUyRn9wVby
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/socks-0.5.5-GieRokcgjQCIzUyRn9wVby
 Registering socks-0.5.5...

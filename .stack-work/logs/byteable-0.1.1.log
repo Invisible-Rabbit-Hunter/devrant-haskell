@@ -8,5 +8,5 @@ Data/Byteable.hs:48:11: warning: [-Winline-rule-shadowing]
       because ‘constEqBytes’ might inline first
     Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘constEqBytes’
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/byteable-0.1.1-15aIBCArSOBEnGxArzrDTM
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/byteable-0.1.1-15aIBCArSOBEnGxArzrDTM
 Registering byteable-0.1.1...

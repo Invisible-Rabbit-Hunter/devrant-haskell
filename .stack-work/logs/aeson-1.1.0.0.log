@@ -79,5 +79,5 @@ Data/Aeson/Types/FromJSON.hs:1064:5: warning: [-Wredundant-constraints]
 [19 of 20] Compiling Data.Aeson.TH    ( Data/Aeson/TH.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Aeson/TH.o )
 [20 of 20] Compiling Data.Aeson.Encode ( Data/Aeson/Encode.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Aeson/Encode.o )
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/aeson-1.1.0.0-2ndlG8WLxEf3tTAmkmkTAt
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/aeson-1.1.0.0-2ndlG8WLxEf3tTAmkmkTAt
 Registering aeson-1.1.0.0...

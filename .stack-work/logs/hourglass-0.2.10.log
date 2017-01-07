@@ -58,5 +58,5 @@ Data/Hourglass.hs:40:1: warning: [-Wunused-imports]
 [16 of 17] Compiling Time.Compat      ( Time/Compat.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Time/Compat.o )
 [17 of 17] Compiling Data.Hourglass.Compat ( Data/Hourglass/Compat.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Hourglass/Compat.o )
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/hourglass-0.2.10-I8h0J4RSF89FN6CuD9x2Xx
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/hourglass-0.2.10-I8h0J4RSF89FN6CuD9x2Xx
 Registering hourglass-0.2.10...

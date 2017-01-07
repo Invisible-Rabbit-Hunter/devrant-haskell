@@ -7,5 +7,5 @@ Control/Monad/Trans/Control.hs:208:10: warning: [-Wredundant-constraints]
     • Redundant constraint: Error e
     • In the instance declaration for ‘MonadTransControl (ErrorT e)’
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/monad-control-1.0.1.0-HoNEBoNfniX3vjSfkI7WTT
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/monad-control-1.0.1.0-HoNEBoNfniX3vjSfkI7WTT
 Registering monad-control-1.0.1.0...

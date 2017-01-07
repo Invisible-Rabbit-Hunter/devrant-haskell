@@ -69,5 +69,5 @@ Data/Acquire.hs:24:1: warning: [-Wunused-imports]
       except perhaps to import instances from ‘Control.Monad’
     To import instances alone, use: import Control.Monad()
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/resourcet-1.1.9-965WSCM4zVm5AReELsOl9B
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/resourcet-1.1.9-965WSCM4zVm5AReELsOl9B
 Registering resourcet-1.1.9...

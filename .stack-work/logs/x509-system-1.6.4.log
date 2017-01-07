@@ -18,5 +18,5 @@ System/X509.hs:10:1: warning: [-Wtabs]
     Tab character found here, and in one further location.
     Please use spaces instead.
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/x509-system-1.6.4-27Gxg35DGJ99MMGbSfX39I
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/x509-system-1.6.4-27Gxg35DGJ99MMGbSfX39I
 Registering x509-system-1.6.4...

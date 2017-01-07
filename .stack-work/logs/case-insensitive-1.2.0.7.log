@@ -10,5 +10,5 @@ Data/CaseInsensitive/Internal.hs:103:1: warning: [-Wredundant-constraints]
 [2 of 3] Compiling Data.CaseInsensitive.Unsafe ( Data/CaseInsensitive/Unsafe.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/CaseInsensitive/Unsafe.o )
 [3 of 3] Compiling Data.CaseInsensitive ( Data/CaseInsensitive.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/CaseInsensitive.o )
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/case-insensitive-1.2.0.7-LntjUIkE2e8LTsVqqpgI18
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/case-insensitive-1.2.0.7-LntjUIkE2e8LTsVqqpgI18
 Registering case-insensitive-1.2.0.7...

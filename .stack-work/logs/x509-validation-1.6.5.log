@@ -17,5 +17,5 @@ Data/X509/Validation.hs:32:1: warning: [-Wunused-imports]
       except perhaps to import instances from ‘Control.Applicative’
     To import instances alone, use: import Control.Applicative()
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/x509-validation-1.6.5-HEd7uTRy2PRJUakYeedEpx
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/x509-validation-1.6.5-HEd7uTRy2PRJUakYeedEpx
 Registering x509-validation-1.6.5...

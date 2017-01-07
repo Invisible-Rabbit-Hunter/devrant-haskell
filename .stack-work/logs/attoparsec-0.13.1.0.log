@@ -23,5 +23,5 @@ Preprocessing library attoparsec-0.13.1.0...
 [20 of 21] Compiling Data.Attoparsec.Lazy ( Data/Attoparsec/Lazy.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Attoparsec/Lazy.o )
 [21 of 21] Compiling Data.Attoparsec  ( Data/Attoparsec.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Data/Attoparsec.o )
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/attoparsec-0.13.1.0-3Yc01HP7t3tGC3AH52n5aT
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/attoparsec-0.13.1.0-3Yc01HP7t3tGC3AH52n5aT
 Registering attoparsec-0.13.1.0...

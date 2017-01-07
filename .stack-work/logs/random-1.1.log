@@ -7,5 +7,5 @@ System/Random.hs:43:1: warning: [-Wtabs]
     Tab character found here, and in 74 further locations.
     Please use spaces instead.
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/random-1.1-54KmMHXjttlERYcr1mvsAe
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/random-1.1-54KmMHXjttlERYcr1mvsAe
 Registering random-1.1...

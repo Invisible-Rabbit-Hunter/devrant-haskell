@@ -42,5 +42,5 @@ Data/Conduit/Binary.hs:580:36: warning: [-Wdeprecations]
 Data/Conduit/Attoparsec.hs:77:5: warning: [-Wunused-top-binds]
     Defined but not used: ‘notEmpty’
 Installing library in
-/home/jonathan/Programming/haskell/devrant/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/conduit-extra-1.1.15-LHeaW5NbDP9In4j6ZEwQBL
+/home/jonathan/Programming/haskell/devrant-haskell/.stack-work/install/x86_64-linux/ghc-8.0.1/8.0.1/lib/x86_64-linux-ghc-8.0.1/conduit-extra-1.1.15-LHeaW5NbDP9In4j6ZEwQBL
 Registering conduit-extra-1.1.15...
